@@ -48,7 +48,7 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener{
 
             R.id.btnImplicit -> {
                     // Intent implicit untuk melakukan panggilan telepon
-                    val phoneNumber = "1234567890" // Nomor telepon yang akan dihubungi
+                    val phoneNumber = "081212345678" // Nomor telepon yang akan dihubungi
                     val dialIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phoneNumber"))
 
                     // Periksa apakah perangkat memiliki aplikasi yang bisa menangani intent ini
